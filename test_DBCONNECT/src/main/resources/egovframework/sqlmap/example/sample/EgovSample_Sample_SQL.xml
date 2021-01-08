@@ -15,8 +15,8 @@
 	</resultMap>
 
 	<insert id="sampleDAO.insertSample">
-		<![CDATA[
-			INSERT INTO SAMPLE 
+		
+			INSERT INTO dbo.SAMPLE 
 				( ID
 				  , NAME
 				  , DESCRIPTION
@@ -27,7 +27,6 @@
 				  , #description#
 				  , #useYn#
 				  , #regUser# )
-		]]>
 	</insert>
 	
 	<update id="sampleDAO.updateSample">
